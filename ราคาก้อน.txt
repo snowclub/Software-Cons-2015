@@ -1,0 +1,5 @@
+TUNER 1800
+Reverb 2500
+Foot Volume 2500
+DELAY 2000
+WAH 3000
