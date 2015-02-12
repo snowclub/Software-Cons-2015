@@ -1,0 +1,95 @@
+/ ** http://giasso.s42.eatj.com/ZooM/ **
+} 
+
+
+
+G9EDpatch
+{
+ Name { Com  bck }
+ Comment {
+// This patch was made by velucette
+// ** http://giasso.s42.eatj.com/ZooM/ **
+}
+
+ PatchLevel { 16 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, BPM TAP }
+ AmpSel { A }
+ AmpA { on, Z Clean, 93, 15, 99, Pre }
+ AmpB { on, Fender Clean, 27, 15, 100, Pre }
+ EQ_A { on, 0, 2, 0, 3, 4, 0 }
+ EQ_B { on, 0, 2, 1, 0, 3, 5 }
+ ZnrA { on, ZNR, 1 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 2, Fast, 5, 80 }
+ Wah { off, AutoWah, Before, 8, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, Chorus, 56, 14, 7, 44 }
+ Del { on, Delay, quarter, 10, 3, 0 }
+ Rev { on, Spring, 10, 2, 0, 48 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 100, enabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 52, 0, 100, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 207, 0, 15 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 50 )
+  4 ( 0, 0, 50 )
+ } 
+
+
+
+
+ Name { VAI-777 }
+ Comment {
+// This patch was made by krazedinc
+// ** http://giasso.s42.eatj.com/ZooM/ **
+}
+
+ PatchLevel { 84 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, BG Drive, 10, 17, 80, Pre }
+ AmpB { on, BG Drive, 60, 16, 80, Pre }
+ EQ_A { on, -1, -4, 4, 7, -2, -8 }
+ EQ_B { on, -2, -4, 4, 7, -2, -8 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, ZNR, 15 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, RackComp, 50, 8, 10, 70 }
+ Wah { off, PedalCryBaby, Before, 15, 0, 70 }
+ Cabi { on, small, middle, Condenser }
+ Mod { on, Chorus, 40, 25, 7, 10 }
+ Del { on, Echo, 500mS, 4, 6, 18 }
+ Rev { on, Hall, 15, 26, 5, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (27, 0, 47, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50) 
